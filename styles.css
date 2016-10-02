@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+.prescreen-wrapper {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #455560;
+    padding: 50px;
+    border: 3px solid #f7751f;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 400;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.prescreen-input {
+    display: block;
+    margin: 0 auto;
+}
+
+button.prescreen-button {
+    display: block;
+    margin: 0 auto;
+    min-width: 150px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: 2px solid #3c9bbd;
+    margin-top: 20px;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.reset-button {
+    display: block;
+    margin: 0 auto;
+    min-width: 150px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: 2px solid #d43f3a;
+    margin-top: 20px;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.prescreen-button:hover {
+    background-color: #3c9bbd;
+}
+
+.reset-button:hover {
+    background-color: #d43f3a;
+}
+
+.prescreen-output {
+    margin-top: 30px;
+}
